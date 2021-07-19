@@ -11,20 +11,20 @@ class Dashboard extends BaseController
 		$data = [
 			'title' => 'Dashboard'
 		];
-		return view('Dashboard/halaman_utama',$data);
+		return view('template',$data);
 	}
 	public function data()
 	{
 		$model = new M_Karyawan();
 		$pegawai = $model->findAll();
-		d($pegawai);
+		
 		
 
 		$data =[
 			'title' => 'Data Karyawan',
 			'pegawai' => $pegawai
 		];
-		return view('Dashboard/tampil_data',$data);
+		return view('content/tampil_data',$data);
 	}
 
 
@@ -34,7 +34,7 @@ class Dashboard extends BaseController
 			'title' => 'Data Karyawan',
 			
 		];
-		return view('Dashboard/tambah_pegawai',$data);
+		return view('content/tambah_pegawai',$data);
 	}
 	public function save()
 	{

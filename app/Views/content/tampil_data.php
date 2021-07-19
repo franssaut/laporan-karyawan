@@ -1,5 +1,6 @@
-<?=$this->extend('Dashboard/halaman_utama');?>
+<?=$this->extend('template');?>
 <?=$this->section('content');?>
+
 <div class="card shadow mb-4">
     <div class="card-header py-3">
         <h6 class="m-0 font-weight-bold text-primary">Data Pegawai</h6>
