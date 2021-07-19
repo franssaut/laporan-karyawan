@@ -27,7 +27,7 @@ class BaseController extends Controller
 	 *
 	 * @var array
 	 */
-	protected $request;
+
 	protected $helpers = [];
 
 	/**
