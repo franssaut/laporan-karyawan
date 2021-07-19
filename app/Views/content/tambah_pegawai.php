@@ -1,4 +1,4 @@
-<?=$this->extend('Dashboard/halaman_utama');?>
+<?=$this->extend('template');?>
 <?=$this->section('content');?>
 <form action="<?=site_url('/dashboard/save')?>" method="post">
     <div class="form-group row">

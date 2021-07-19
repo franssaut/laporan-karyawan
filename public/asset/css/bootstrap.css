@@ -32,6 +32,7 @@
   --danger: #e74a3b;
   --light: #f8f9fc;
   --dark: #5a5c69;
+
   --breakpoint-xs: 0;
   --breakpoint-sm: 576px;
   --breakpoint-md: 768px;
@@ -6489,7 +6490,15 @@ button.bg-dark:hover,
 button.bg-dark:focus {
   background-color: #42444e !important;
 }
+.bg-gelap {
+  background-color: #343a40 !important;
+}
 
+a.bg-gelap:hover, a.bg-gelap:focus,
+button.bg-gelap:hover,
+button.bg-gelap:focus {
+  background-color: #42444e !important;
+}
 .bg-white {
   background-color: #fff !important;
 }
@@ -9666,7 +9675,9 @@ a.text-dark:hover, a.text-dark:focus {
 .text-black-50 {
   color: rgba(0, 0, 0, 0.5) !important;
 }
-
+.text-black {
+  color: rgba(0, 0, 0, 0.9) !important;
+}
 .text-white-50 {
   color: rgba(255, 255, 255, 0.5) !important;
 }
