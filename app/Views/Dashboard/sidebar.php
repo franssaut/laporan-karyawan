@@ -50,12 +50,25 @@
         <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
             <div class="bg-white py-2 collapse-inner rounded">
                 <a class="collapse-item" href="<?=site_url('dashboard/laporan')?>">Lihat Laporan</a>
-                <a class="collapse-item" href="utilities-color.html">Input Laporan</a>
+                <a class="collapse-item" href="<?=site_url('dashboard/laporan/input_laporan')?>">Input Laporan</a>
 
             </div>
         </div>
+        
     </li>
+    <li class="nav-item">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collape3" aria-expanded="true" aria-controls="collape3">
+            <i class="fas fa-fw fa-cog"></i>
+            <span>Manajemen Laporan</span>
+        </a>
+        <div id="collape3" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+            <div class="bg-white py-2 collapse-inner rounded">
 
+                <a class="collapse-item" href="<?= site_url('dashboard/data') ?>">Lihat Laporan Pekerja</a>
+                <a class="collapse-item" href="<?= site_url('dashboard/laporan/input_laporan') ?>">Approve</a>
+            </div>
+        </div>
+    </li>
     <!-- Divider -->
     <hr class="sidebar-divider">
 

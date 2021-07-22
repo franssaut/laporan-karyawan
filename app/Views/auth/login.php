@@ -26,14 +26,18 @@
                         <div class="container">
 
                             <form action="<?=base_url('Auth/login');?>" method='post'>
+                            <?=csrf_field();?>
+                          
+                            <?=session()->get('pesan');?>
+                           
                                 <div class="form-group mb-3">
                                     <label for="number" class="text-black">Id Pegawai</label>
                                     <input type="number" class="form-control text-black" name="id_karyawan" placeholder="Masukkan Id">
-
+                                    <span><?= isset($validation) ? display_error($validation,'id_karyawan'): ""?></span>
                                 </div>
                                 <div class="form-group mb-3">
                                     <label for="password" class="text-black">Password</label>
-                                    <input type="text" class="form-control text-black" name="password" placeholder="Masukkan Password">
+                                    <input type="password" class="form-control text-black" name="password" placeholder="Masukkan Password">
 
                                 </div>
                                 <div class="form-group d-grid gap-2 mb-3">

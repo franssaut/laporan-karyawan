@@ -10,7 +10,7 @@
     <div class="form-group row">
         <label for="inputNama" class="col-sm-2 col-form-label">Nama</label>
         <div class="col-sm-6">
-            <input type="text" class="form-control" id="inputNama" name="nama" placeholder="Nama">
+            <input type="text" class="form-control" id="inputNama" name="nama" value="" placeholder="Nama">
         </div>
     </div>
     <!-- Select -->
@@ -27,7 +27,7 @@
     <div class="form-group row">
         <label for="inputAlamat" class="col-sm-2 col-form-label">alamat</label>
         <div class="col-sm-6">
-            <input type="select" class="form-control" id="inputAlamat" name="alamat" placeholder="alamat">
+            <input type="select" value="" class="form-control" id="inputAlamat" name="alamat" placeholder="alamat">
         </div>
     </div>
     <div class="form-group row">
@@ -43,7 +43,7 @@
     <div class="form-group row">
         <label for="password" class="col-sm-2 col-form-label">password</label>
         <div class="col-sm-6">
-            <input type="select" class="form-control" id="password" name="password" placeholder="password">
+            <input type="select" class="form-control" value="" id="password" name="password" placeholder="password">
         </div>
     </div>
     <div class="form-group row">

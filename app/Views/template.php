@@ -26,7 +26,7 @@
 
     <!-- Page Wrapper -->
     <div id="wrapper">
-
+   
         <!-- Sidebar -->
        <?=$this->include('Dashboard/sidebar')?>
 

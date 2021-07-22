@@ -34,6 +34,8 @@ $routes->setAutoRoute(true);
 // route since we don't have to scan directories.
 $routes->get('/', 'Auth::index');
 $routes->add('/dashboard/laporan', 'Laporan::index');
+$routes->add('/dashboard/laporan/input_laporan', 'Laporan::input_laporan');
+$routes->get('/dashboard/edit/(:number)', 'Dashboard::edit/$data');
 /*
  * --------------------------------------------------------------------
  * Additional Routing
